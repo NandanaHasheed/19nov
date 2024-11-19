@@ -1,0 +1,23 @@
+fruits=("Apple","Cherry","Orange","Grapes","Strawberry")
+print(fruits[0])
+print(fruits[3])
+print(fruits[-1])
+print(fruits[-2])
+print(len(fruits))
+colours=("Red","Orange","Yellow","Violet","White")
+print(colours[0:2])
+print(colours[-2:])
+print(colours[1:3])
+even_numbers=(2,4,6)
+odd_numbers=(1,3,5)
+numbers=even_numbers+odd_numbers
+print(numbers)
+repeat_tuple=("Hello",)*3
+print(repeat_tuple)
+fruits=("Apple","Cherry","Orange","Grapes","Strawberry")
+print("banana" in fruits)
+print("Apple" in fruits)
+person=("Alice",25,"Engineer")
+name,age,profession=person
+print(name)
+print(age)
