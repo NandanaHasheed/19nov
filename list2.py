@@ -30,5 +30,4 @@ oddlist.sort()
 print("Sorted even list =",evenlist)
 print("Sorted odd list =",oddlist)
 combinedlist=evenlist+oddlist
-combinedlist.sort()
 print("Combined even and odd list =",combinedlist)
